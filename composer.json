@@ -1,0 +1,24 @@
+{
+    "name": "vanry/config",
+    "description": "Based on hassankhan/config, it uses filename as key if loading configurations from multiple files",
+    "keywords": ["php", "config", "configuration"],
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "homepage": "http://vanry.me",
+    "authors": [
+        {
+            "name": "vanry",
+            "email": "ivanry@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "hassankhan/config": "^0.10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vanry\\Config\\": "src/"
+        }
+    }
+}
